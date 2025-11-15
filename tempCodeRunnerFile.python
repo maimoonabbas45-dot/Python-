@@ -1,0 +1,5 @@
+print("hyy")
+import pickle
+my_list = ["a","b","c"]
+with open(datafile.txt,"wb") as fh:
+    pickle.dump(my_list)
